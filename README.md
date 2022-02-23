@@ -37,7 +37,7 @@ int main(){
 
 You can specify display connection pins, size, frequency, and SPI port. 
 
-The connection between ST7735 and Pi Pico like below:
+The connection between ST7735 and Pi Pico should be like below:
 
 | ST7735 |     Pi Pico     |
 | :----: | :-------------: |
@@ -46,7 +46,8 @@ The connection between ST7735 and Pi Pico like below:
 |   CS   | Any Pin is fine |
 |   DC   | Any pin is fine |
 
-Due to we use 4-line serial interface, and actually we actually use two pins(SCL, SDA) of Pi Pico SPI and you can use any pin for the other two pin(CS, DC).
+Due to we're using 4-line serial interface, we actually use for pins. Two Pi Pico SPI port(SCK, TX) for ST7735 SCL and SDA and you can use any other pins for CS and DC.
+
 ![Pi Pico Pinout](images/pinout.jpeg)
 
 ### 3.2 Draw Some Shapes With Color
