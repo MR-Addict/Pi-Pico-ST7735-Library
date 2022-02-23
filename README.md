@@ -46,7 +46,9 @@ The connection between ST7735 and Pi Pico should be like below:
 |   CS   | Any Pin is fine |
 |   DC   | Any pin is fine |
 
-Due to we're using 4-line serial interface, we actually use for pins. Two Pi Pico SPI port(SCK, TX) for ST7735 SCL and SDA and you can use any other pins for CS and DC.
+Due to we're using 4-line serial interface, we actually use four pins.
+
+Two Pi Pico SPI port(SCK, TX) for ST7735 SCL and SDA and you can use any other pins for CS and DC.
 
 ![Pi Pico Pinout](images/pinout.jpeg)
 
